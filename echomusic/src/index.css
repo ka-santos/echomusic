@@ -3,16 +3,19 @@
 :root {
     --primary-color: #fe0084;
     --secondary-color: #f5deb3;
-    --title: #fff9e6;
-    --contrast: #fe8629;
-    --text-base: #333;
+    --title: #FFFDFD;
+    --destaque: #3395FF;
+    --destaque1:#E0AAFF;
+    --: #979DAC;
     --cta: #c5006c;
-    --background: #1a1a1a;
+    --background: #001233;
+    --footer:#001845;
     --text-color: #fff;
-    --gradient1: linear-gradient(135deg, #e6007e, #6a1b9a);
-    --gradient2: linear-gradient(135deg, #ff3399, #4a148c);
+    --gradient1: linear-gradient(135deg, #0466C8, #7B2CBF);
+    --gradient2: linear-gradient(135deg, #3395FF, #9D4EDD, #5C677D);
+
     --font-base: "Montserrat", sans-serif;
-    --font-title: "Playfair Display", serif;
+    --font-title: "Inter", sans-serif;
 }
 * {
     margin: 0;
