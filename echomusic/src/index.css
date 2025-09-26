@@ -3,14 +3,14 @@
 :root {
     --primary-color: #fe0084;
     --secondary-color: #f5deb3;
-    --title: #FFFDFD;
+    --title: #fffdfde5;
     --destaque: #3395FF;
     --destaque2:#E0AAFF;
     --roxo-destaque:#7B2CBF;
     --azul-cometarios:#01285F;
     --roxo-text-btn:#18173D;
     --rock: rgba(24, 45, 67, 0.89);
-    --cinza: #979DAC;
+    --cinza: #979dacd3;
     --rock-eletronica: rgba(57, 58, 85, 0.65);
     --roxo-login:#6819BC;
     --pop-roxo:#301E41;
@@ -19,7 +19,7 @@
     --cta: #c5006c;
     --background: #001233;
     --footer:#001845;
-    --text-color: #fff;
+    --text-color: #fffffff6;
     --azul-quadrado:#1749A4;
 
     /* === GRADIENTS === */

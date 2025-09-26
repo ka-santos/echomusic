@@ -1,0 +1,91 @@
+/* ===== Topo (Header) ===== */
+header {
+    background: #0f172a; /* fundo escuro */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .topo {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Logo */
+  .topo picture img {
+    height: 40px;
+    width: auto;
+  }
+  
+  /* Navegação */
+  .topo nav {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  
+  .topo nav a {
+    color: #e2e8f0;
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 500;
+    transition: 0.3s;
+  }
+  
+  .topo nav a:hover {
+    color: #fff;
+  }
+  
+  /* Botões */
+  .topo nav .btn {
+    border-radius: 9999px;
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s;
+  }
+  
+  .topo nav .btn:first-of-type {
+    background: transparent;
+    border: 2px solid #4f46e5;
+    color: #4f46e5;
+  }
+  
+  .topo nav .btn:first-of-type:hover {
+    background: #4f46e5;
+    color: white;
+  }
+  
+  .topo nav .btn:last-of-type {
+    background: #4f46e5;
+    color: white;
+  }
+  
+  .topo nav .btn:last-of-type:hover {
+    background: #3730a3;
+  }
+  
+  /* ===== Responsividade ===== */
+  @media (max-width: 768px) {
+    .topo {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1rem;
+    }
+  
+    .topo nav {
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+  
+    .topo nav a {
+      font-size: 0.85rem;
+    }
+  }

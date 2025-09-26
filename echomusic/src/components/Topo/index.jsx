@@ -6,7 +6,7 @@ export default function Topo() {
       <div className="topo">
         <picture>
           <a href="#">
-            <img src="./logo sem fundo.png"/>
+            <img src="./logo.png"/>
           </a>
         </picture>
 
