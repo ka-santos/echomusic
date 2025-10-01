@@ -1,4 +1,6 @@
 import "./Topo.css";
+import React from "react";
+import { NavLink } from "react-router-dom";
 
 export default function Topo() {
   return (
@@ -6,21 +8,24 @@ export default function Topo() {
       <div className="topo">
         <picture>
           <a href="#">
-            <img src="./logo.png"/>
+            <img src="./logo.png" alt="Logo"/>
           </a>
         </picture>
 
         <nav>
-          <a href="#">Início</a>
-          <a href="#">Descobrir</a>
-          <a href="#">Salas ao Vivo</a>
-          <a href="#">Comunidades</a>
-          <a href="#">Sobre</a>
-          <button className="btn">Entrar</button>
-          <button className="btn">Comecar Grátis</button>
-        </nav>
+          <NavLink to="/">Home</NavLink>
+          <NavLink to="/login">Início</NavLink>
+          <NavLink to="/descobrir">Descobrir</NavLink>
+          <NavLink to="/salas">Salas ao Vivo</NavLink>
+          <NavLink to="/comunidades">Comunidades</NavLink>
+          <NavLink to="/sobre">Sobre</NavLink>
 
+          {/* Botões que navegam para rotas */}
+          <NavLink to="/login" className="btn">Entrar</NavLink>
+          <NavLink to="/signup" className="btn btn-principal">Começar Grátis</NavLink>
+        </nav>
       </div>
     </header>
   );
 }
+
