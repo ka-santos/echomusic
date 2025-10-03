@@ -1,7 +1,4 @@
 import React from 'react';
-
-
-
 import './HomePage.css';
 import usarioKaren from '../../assets/usario_karen.png';
 import usuarioAna from '../../assets/usuario_ana_vitoria.png';
@@ -9,6 +6,7 @@ import usuarioLarissa from '../../assets/usuario_larissa.png';
 import usuarioMariana from '../../assets/usario_mariana.png';
 import usuarioCarlos from '../../assets/usuario_carlos.jpeg';
 import usuarioArthur from '../../assets/usuario_arthur.jpeg';
+
 
 
 

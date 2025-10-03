@@ -14,13 +14,12 @@ export default function Topo() {
 
         <nav>
           <NavLink to="/">Home</NavLink>
-          <NavLink to="/login">Início</NavLink>
-          <NavLink to="/descobrir">Descobrir</NavLink>
+          <NavLink to="/discover">Descobrir</NavLink> {/* corrigido */}
           <NavLink to="/salas">Salas ao Vivo</NavLink>
           <NavLink to="/comunidades">Comunidades</NavLink>
-          <NavLink to="/sobre">Sobre</NavLink>
+          <NavLink to="/about">Sobre</NavLink>
 
-          {/* Botões que navegam para rotas */}
+          {/* Botões */}
           <NavLink to="/login" className="btn">Entrar</NavLink>
           <NavLink to="/signup" className="btn btn-principal">Começar Grátis</NavLink>
         </nav>
@@ -28,4 +27,5 @@ export default function Topo() {
     </header>
   );
 }
+
 
